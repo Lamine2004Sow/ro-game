@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Maire",
+    "weights": {
+      "performance": 3,
+      "robustness": 3,
+      "clarity": 2,
+      "social": 4
+    }
+  },
+  {
+    "name": "CFO",
+    "weights": {
+      "performance": 5,
+      "robustness": 3,
+      "clarity": 3,
+      "social": 1
+    }
+  },
+  {
+    "name": "Sante",
+    "weights": {
+      "performance": 2,
+      "robustness": 4,
+      "clarity": 2,
+      "social": 5
+    }
+  },
+  {
+    "name": "Mobilite",
+    "weights": {
+      "performance": 4,
+      "robustness": 4,
+      "clarity": 2,
+      "social": 2
+    }
+  },
+  {
+    "name": "Climat",
+    "weights": {
+      "performance": 2,
+      "robustness": 3,
+      "clarity": 2,
+      "social": 5
+    }
+  }
+]

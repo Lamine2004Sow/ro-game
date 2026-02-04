@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Greve transport",
+    "description": "Capacite de deplacement reduite, congestion rapide.",
+    "impact": { "performance": -8, "robustness": -14, "social": -6 }
+  },
+  {
+    "name": "Canicule intense",
+    "description": "Demande energetique en forte hausse et fragilite sanitaire.",
+    "impact": { "performance": -6, "robustness": -10, "social": -8 }
+  },
+  {
+    "name": "Cyberattaque municipale",
+    "description": "Services numeriques perturbes pendant plusieurs heures.",
+    "impact": { "performance": -10, "robustness": -15, "social": -4 }
+  },
+  {
+    "name": "Afflux aux urgences",
+    "description": "Pic soudain de patients et files d'attente explosives.",
+    "impact": { "performance": -7, "robustness": -12, "social": -9 }
+  },
+  {
+    "name": "Inondation locale",
+    "description": "Deux axes routiers fermes sur la zone nord.",
+    "impact": { "performance": -9, "robustness": -11, "social": -7 }
+  },
+  {
+    "name": "Panne reseau electrique",
+    "description": "Baisse de capacite sur les quartiers est.",
+    "impact": { "performance": -8, "robustness": -13, "social": -6 }
+  },
+  {
+    "name": "Subvention exceptionnelle",
+    "description": "Budget ponctuel pour services essentiels.",
+    "impact": { "performance": 8, "robustness": 5, "social": 6 }
+  },
+  {
+    "name": "Innovation locale",
+    "description": "Nouvel outil de coordination inter-services.",
+    "impact": { "performance": 5, "robustness": 9, "social": 4 }
+  },
+  {
+    "name": "Mobilisation citoyenne",
+    "description": "Volontaires disponibles pour soutien logistique.",
+    "impact": { "performance": 4, "robustness": 6, "social": 10 }
+  },
+  {
+    "name": "Rupture fournisseur",
+    "description": "Retard sur medicaments et pieces critiques.",
+    "impact": { "performance": -11, "robustness": -8, "social": -5 }
+  },
+  {
+    "name": "Alerte pollution",
+    "description": "Restriction de circulation et demande sanitaire accrue.",
+    "impact": { "performance": -6, "robustness": -9, "social": -10 }
+  },
+  {
+    "name": "Semaine calme",
+    "description": "Pas de perturbation notable, marge de progression.",
+    "impact": { "performance": 2, "robustness": 2, "social": 2 }
+  }
+]

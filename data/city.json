@@ -1,0 +1,36 @@
+{
+  "hub": "Centre",
+  "base_system": {
+    "budget": 240.0,
+    "stock": 280.0,
+    "trust": 62.0,
+    "co2": 48.0,
+    "health_backlog": 42.0,
+    "mobility_backlog": 38.0,
+    "energy_backlog": 34.0
+  },
+  "districts": [
+    { "id": "Centre", "population": 152000, "vulnerability": 0.34 },
+    { "id": "Nord", "population": 124000, "vulnerability": 0.78 },
+    { "id": "Est", "population": 101000, "vulnerability": 0.69 },
+    { "id": "Sud", "population": 116000, "vulnerability": 0.53 },
+    { "id": "Ouest", "population": 107000, "vulnerability": 0.46 },
+    { "id": "TechPark", "population": 79000, "vulnerability": 0.28 },
+    { "id": "Rive", "population": 92000, "vulnerability": 0.74 }
+  ],
+  "edges": [
+    { "src": "Centre", "dst": "Nord", "time": 9, "capacity": 180 },
+    { "src": "Centre", "dst": "Est", "time": 8, "capacity": 190 },
+    { "src": "Centre", "dst": "Sud", "time": 10, "capacity": 165 },
+    { "src": "Centre", "dst": "Ouest", "time": 8, "capacity": 175 },
+    { "src": "Centre", "dst": "TechPark", "time": 7, "capacity": 200 },
+    { "src": "Centre", "dst": "Rive", "time": 11, "capacity": 160 },
+    { "src": "Nord", "dst": "Est", "time": 6, "capacity": 120 },
+    { "src": "Nord", "dst": "Rive", "time": 7, "capacity": 115 },
+    { "src": "Est", "dst": "Rive", "time": 6, "capacity": 125 },
+    { "src": "Est", "dst": "TechPark", "time": 7, "capacity": 130 },
+    { "src": "Sud", "dst": "Ouest", "time": 6, "capacity": 140 },
+    { "src": "Sud", "dst": "Rive", "time": 8, "capacity": 120 },
+    { "src": "Ouest", "dst": "TechPark", "time": 5, "capacity": 145 }
+  ]
+}

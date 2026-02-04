@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Formulation",
+    "missions": [
+      "Definir variables, objectif et contraintes pour stabiliser les urgences.",
+      "Poser un modele clair pour equilibrer budget, service et equite.",
+      "Identifier les hypotheses minimales pour decider en 20 minutes."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Programmation lineaire",
+    "missions": [
+      "Allouer le budget energie-transport pour maximiser le service rendu.",
+      "Ajuster les ressources entre quartiers avec contraintes de capacite.",
+      "Minimiser les couts de fonctionnement sans degrader la qualite."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dualite et sensibilite",
+    "missions": [
+      "Trouver la contrainte la plus critique via les prix d'ombre.",
+      "Comparer deux plans selon la valeur d'une unite de capacite.",
+      "Prioriser les investissements qui desserrent les goulots."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Programmation entiere",
+    "missions": [
+      "Choisir quels centres de soins ouvrir avec budget limite.",
+      "Decider de l'ouverture de depots logistiques (oui/non).",
+      "Planifier des decisions discretes robustes face a la demande."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Reseaux",
+    "missions": [
+      "Minimiser le temps d'acheminement des ambulances sur le graphe.",
+      "Resoudre un flot max pour evacuer une zone inondee.",
+      "Trouver un routage cout minimal avec routes partiellement fermees."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ordonnancement",
+    "missions": [
+      "Construire un planning bloc operatoire avec priorites patients.",
+      "Repartir les equipes terrain pour limiter les retards critiques.",
+      "Minimiser penalites de retard sous contraintes de ressources."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Stocks",
+    "missions": [
+      "Fixer une politique (s,S) pour medicaments vitaux.",
+      "Arbitrer entre rupture et surstock pour anti-douleur.",
+      "Dimensionner les stocks de bus de secours selon incertitude."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Files d'attente",
+    "missions": [
+      "Dimensionner les postes urgences pour reduire le temps d'attente.",
+      "Optimiser un call center citoyen sous pic de demandes.",
+      "Arbitrer cout de capacite et qualite de service."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Simulation Monte Carlo",
+    "missions": [
+      "Comparer deux politiques sous variabilite de la demande.",
+      "Tester la resilience d'un plan avec 100 scenarios aleatoires.",
+      "Evaluer le risque d'echec d'un dispositif de crise."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Multi-criteres et robustesse",
+    "missions": [
+      "Construire un compromis Pareto cout-service-equite-CO2.",
+      "Trouver une solution minimax qui tient sur mauvais scenario.",
+      "Distinguer solution optimale fragile et solution robuste."
+    ]
+  }
+]
